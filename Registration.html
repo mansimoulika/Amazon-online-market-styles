@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>Registration</title>
+    <style>
+        body {
+            font-family: EB Garamond;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #e6ccb3;
+            border: 1px solid black;
+            border-radius: 8px;
+       }
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 10px;
+            font-size: 18px;
+            color: #392613;
+        }
+
+        input[type="text"], input[type="email"], input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #392613;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #392613;
+            color: white;
+            padding: 10px 15px;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+
+        td[colspan="2"] {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" name="username" placeholder="Enter your username"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" name="email" placeholder="Enter your email"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" placeholder="Enter your password"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Register">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+

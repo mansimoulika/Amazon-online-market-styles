@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body {
+            font-family: EB Garamond;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login-container {
+            background-color: #e6ccb3;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        td {
+            padding: 10px        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #392613;
+            color: white;
+            padding: 10px;
+            border-radius: 4px;
+            width: 100%;
+            font-size: 16px;
+        }
+        }
+    </style>
+</head>
+<body>
+    <!-- Login Form Container -->
+    <div class="login-container">
+        <h2>Login</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="username" placeholder="Enter your username"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" placeholder="Enter your password"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Login">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
